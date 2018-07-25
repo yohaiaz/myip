@@ -18,7 +18,7 @@ func main() {
 
 	http.HandleFunc("/", serverHandler)
 
-	http.ListenAndServe("localhost:5000", nil)
+	http.ListenAndServe(":5000", nil)
 
 	<-graceFullShutDown
 }
