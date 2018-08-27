@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 0.2
 
 phases:
@@ -16,3 +17,18 @@ phases:
 artifacts:
   files:
     - target/myip
+=======
+---
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "pre_build"
+  build:
+    commands:
+      - echo "build"
+  post_build:
+    commands:
+      - echo "post_build"
+>>>>>>> 6b656c4609126a7cd7a454d90979924a01afc9d6
