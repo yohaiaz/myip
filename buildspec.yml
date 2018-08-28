@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Nothing to do in the install phase,  on `date`
+      - echo install phase,  on `date`
   pre_build:
     commands:
-      - echo Nothing to do in the pre_build phase,  on `date`
+      - echo pre_build phase,  on `date`
   build:
     commands:
       - echo Build started on `date`
@@ -15,4 +15,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/myip
+    - myip
